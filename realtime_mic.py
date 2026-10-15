@@ -1,16 +1,4 @@
-"""
-Real-time speech translator (sentence-by-sentence) on top of pipeline.py.
 
-Speak a sentence, pause briefly -> translated speech plays back.
-
-HOW TO STOP (any of these):
-  1. Say "stop translation" (or "stop listening")   <- voice command
-  2. Type  q  and press Enter in the terminal
-  3. Press Ctrl+C
-
-Run:  py .\realtime_mic.py
-Needs: pip install silero-vad
-"""
 import io, queue, threading, time, re
 from collections import deque
 

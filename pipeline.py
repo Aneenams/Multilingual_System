@@ -1,10 +1,4 @@
-"""
-Faster drop-in replacement for pipeline.py.
-Same class name and same run_pipeline() signature, so test_mic.py,
-server.py and realtime_mic.py keep working unchanged.
 
-Needs:  pip install faster-whisper
-"""
 import io
 import time
 import torch
